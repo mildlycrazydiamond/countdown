@@ -31,20 +31,30 @@ export default function App() {
     >
       <h1
         style={{
-          fontSize: '3.5rem',
+          fontSize: '4.5rem',
           fontWeight: 'bold',
+          color: '#a5b4fc', // light indigo
+          marginBottom: '0.25rem',
+          textShadow: '0 2px 8px #0a0a23',
+          textAlign: 'center',
+        }}
+      >
+        Ashirwaad
+      </h1>
+      <h2
+        style={{
+          fontSize: '3rem',
           color: '#a5b4fc', // light indigo
           marginBottom: '1.5rem',
           textShadow: '0 2px 8px #0a0a23',
           textAlign: 'center',
         }}
       >
-        Ashirwaad, 8th March 2026
-      </h1>
+        8th March 2026
+      </h2>
       <div
         style={{
-          fontSize: '4rem',
-          fontWeight: 'bold',
+          fontSize: '3.5rem',
           color: '#38bdf8', // sky blue
           marginBottom: '2rem',
           textShadow: '0 2px 12px #0a0a23',
@@ -55,9 +65,10 @@ export default function App() {
       <div
         className="bold-text"
         style={{
-          fontSize: '2.5rem',
+          fontSize: '3rem',
           color: '#f472b6', // pink-400
           textShadow: '0 1px 6px #0a0a23',
+          marginBottom: '1rem',
           textAlign: 'center',
         }}
       >
