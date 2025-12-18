@@ -7,11 +7,22 @@
 /* Global styles */
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Tangerine', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+/* Ensure the page background matches the app and covers overscroll (iOS bounce) */
+html, body, #root {
+  height: 100%;
+  background: #0f172a;
+  background-color: #0f172a;
+}
+
+.bold-text {
+  font-weight: 700; /* or 'bold' */
 }
 
 code {
