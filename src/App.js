@@ -72,9 +72,8 @@ export default function App() {
           textAlign: 'center',
         }}
       >
-        Jayati & Aditya
+        Aditya <span role="img" aria-label="heart">❤️</span> Jayati
         {/* <br /> */}
-        {/* <span role="img" aria-label="heart">❤️</span> */}
       </div>
 
       <img
